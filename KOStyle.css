@@ -1,0 +1,110 @@
+
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav li {
+    font-size: 2rem;
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+.main-background {
+    background-image: url("./Assets/blackpalmleaf.jpg");
+    opacity: 0.9;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: black;
+
+}
+
+.main-text {
+    font-size: 50px; 
+    font-family: Georgia;
+    color: #ccc5b9;
+    text-shadow: 2px 2px 3px #c83e4d; 
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.sub-text {
+    font-size: 30px;
+    font-family: Georgia;
+    color: #ccc5b9;
+    text-shadow: 2px 2px 3px #c83e4d; 
+    text-align: center;
+    
+}
+
+.title-text{
+    font-size: 30px;
+    font-family: Georgia;
+    color: #ccc5b9;
+    text-shadow: 2px 2px 3px #c83e4d; 
+    text-align: center;
+    
+}
+
+.paragraph-text {
+    font-size: 14px;
+    font-family: Georgia;
+    color: #ccc5b9;
+    text-align: center;
+}
+
+#buttons li {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: #252422;
+    border: none;
+
+}
+#buttons li a {
+    text-decoration: none;
+    color: #ccc5b9;
+    display: block;
+}
+#buttons li a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #252422;
+}
+
+.footer {
+    bottom: 0;
+    position: auto;
+    width: 100%;
+}
+
+.footer {
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: #ccc5b9;
+    font-size: 22px;
+    text-shadow: 1px 0px 2px #c83e4d;
+}
+.sub-footer {
+
+    color: #ccc5b9;   
+}
+
+.stock-image1 
+    {border-image: url(./Assets/desktop.jpg)
+        width: 40px;
+        height: 20px;
+    
+}
+
+
+
+.stick-nav {
+    display: fixed;
+ }
+/* this will allow you to create a menu that stays in place at the top of the page */
