@@ -27,18 +27,16 @@
     font-size: 2rem;
     display: inline-block;
     border: 1px solid gray;
-    padding: 5px 10px;
+
 }
 .main-background {
-    position: relative;
+    position: static;
     background-color: #252422;
     background-image: url("./Assets/blackpalmleaf.jpg");
     opacity: 0.9;
     background-size:cover;
     background-repeat:no-repeat;
-    background-position: center;
-    
-
+    margin:auto;
 }
 
 .main-text {
@@ -48,7 +46,6 @@
     text-shadow: 2px 2px 3px #c83e4d; 
     text-align: center;
     margin-top: 100px;
-
 }
 
 .sub-text {
@@ -57,16 +54,21 @@
     color: #ccc5b9;
     text-shadow: 2px 2px 3px #c83e4d; 
     text-align: center;
-    
 }
 
 .title-text{
-    font-size: 30px;
+    font-size: 36px;
     font-family: Georgia;
     color: #ccc5b9;
     text-shadow: 2px 2px 3px #c83e4d; 
     text-align: center;
-    
+}
+
+.paragraph-header {
+    font-size: 22px;
+    font-family: Georgia;
+    color:#ccc5b9;
+    text-align: center;
 }
 
 .paragraph-text {
@@ -83,13 +85,14 @@
     font-size: 20px;
     background-color: #252422;
     border: none;
-
 }
+
 #buttons li a {
     text-decoration: none;
     color: #ccc5b9;
     display: block;
 }
+
 #buttons li a:hover {
     text-decoration: none;
     color: black;
@@ -112,7 +115,6 @@
     text-shadow: 1px 0px 2px #c83e4d;
 }
 .sub-footer {
-
     color: #ccc5b9;   
 }
 
