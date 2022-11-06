@@ -101,7 +101,7 @@ body {
 #buttons li a:hover {
     text-decoration: none;
     color:#252422;
-    background-color: #252422;
+    background-color: #ccc5b9;
 }
 
 .footer {
@@ -152,6 +152,34 @@ body {
     --row-height: 200px;
   }  
     
+}
+
+input [type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc5b9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    color:#252422;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #403d39;
+}
+
+/*.container {
+    border-radius: 5px;
+    background-color:#252422;
+    padding: 20px;
 }
 
 
