@@ -31,7 +31,7 @@ body {
 .main-nav li {
     font-size: 2rem;
     display: inline-block;
-    border: 1px solid gray;
+    border: 2px solid gray;
 
 }
 .main-background {
@@ -54,7 +54,7 @@ body {
 }
 
 .sub-text {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Georgia;
     color: #ccc5b9;
     text-shadow: 2px 2px 3px #c83e4d; 
@@ -87,7 +87,7 @@ body {
 #buttons li {
     list-style: none;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #252422;
     border: none;
 }
@@ -152,6 +152,14 @@ body {
     --row-height: 200px;
   }  
     
+}
+
+.form-text {
+    font-size: 20px;
+    font-family: Georgia;
+    color: #ccc5b9;
+    text-shadow: 2px 2px 3px #c83e4d; 
+    text-align: center; 
 }
 
 /*
